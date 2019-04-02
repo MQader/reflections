@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+========================================================================
+A new metadata folder called .git is created defining the current state of files and repository is now..
+we need it to create a new git repository locally.
+
+===================================================================================================================
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+===================================================================================================================
+it is an intermediate area where you collect logcial related files together.
+
+
+
