@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+===============================================================================================
+Having the old version as well as the new version will definetly be the right thing if we need to figure out the bug introduced quickly, no other way could help figuring this out unless you have a computer memory in your head.
+
+
+When you have files not in bytes but in mega bytes,
+or files with thousands or even hundreds of lines, it won't be easy to compare them by eye, here we should have diff tools so that to extract what really changed for better faster and more effecient analysis.
+
+Also diff tools might be able to get what are the changed files from a project consisting of tens or hundreds or files. using the eye diff will not be efficient at all.
+
+===================================================================================================================
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+===================================================================================================================
+
+you know more about the incremental steps, help in planning for future similar tasks, for analysis, and for sure to return to latest stable versions as well as getting the bug introduced very quickly through differing
+
+========================================================================================================================================================================
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+========================================================================================================================================================================
+choosing when you commit would be more suitable to have measures for changes, so automatically saving might save not needed changes or even very minor changes that would be not working when you take it.
+so having the manual commit, gives you the ability whether to figure out that this is the right time, content for a new version for your code. 
+
+================================================================================================================================================================
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+================================================================================================================================================================
+git gives a snapshot for the whole project that is containing many dependencies files that might be changed together due to some features added or even change on file due to some feature that just affect one of them,
+While Google docs assume that each file is a separate one that is independent on any others in all cases.
+
+===============================================================================
+How can you use the commands git log and git diff to view the history of files?
+===============================================================================
+git log will give you an information about the whole commits, by whom, and when, every commit will be given and ID, it also contains a log message for every commit that it entered by user defining what happened.
+git log --stat, will give you an insight about which files have been changed and how many of them, how many changed lines per every one of them, by every commit but will not give deep details about the changed lines contents.
+git diff will allow to diff different commits and to see which files or inseretions or deletions have been made from a commit version to another and see what exactly has been changed.
+
+===================================================================================================
+How might using version control make you more confident to make changes that could break something?
+===================================================================================================
+Because I can diff with old versions and if so just just solve the bug at the line or part which is introduced without rolling back all the changes.
+
+===============================================================================
+Now that you have your workspace set up, what do you want to try using Git for?
+===============================================================================
+set up my code project and start using git for it.
+
+
+
